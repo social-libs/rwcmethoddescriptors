@@ -3,7 +3,7 @@ module.exports = {
     user: {
       getCandidates: [{
         title: 'Filter',
-        type: ['array', 'null']
+        type: ['object', 'null'] //simple filter object from User
       }],
       initiateRelation: [{
         title: 'Target Name',

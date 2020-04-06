@@ -1,5 +1,5 @@
 {
   "browserify": {
-    "dist/browserified.js" : "webindex.js"
+    "dist/browserified.js" : "browserify.js"
   }
 }
