@@ -10,7 +10,10 @@ function createLib (execlib) {
           title: 'User Name',
           type: 'string'
         },{
-          title: 'Filter',
+          title: 'Filter1',
+          type: ['array', 'null']
+        },{
+          title: 'Filter2',
           type: ['array', 'null']
         }],
         initiateRelation: [{
