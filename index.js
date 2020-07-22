@@ -22,6 +22,9 @@ function createLib (execlib) {
         },{
           title: 'Target Name',
           type: 'string'
+        },{
+          title: 'Reference',
+          type: 'string'
         }],
         blockRelation: [{
           title: 'Initiator Name',
@@ -35,6 +38,16 @@ function createLib (execlib) {
           type: 'string'
         }],
         acceptRelation: [{
+          title: 'Target name',
+          type: 'string'
+        },{
+          title: 'Initiator name',
+          type: 'string'
+        },{
+          title: 'Reference',
+          type: 'string'
+        }],
+        rejectRelation: [{
           title: 'Target name',
           type: 'string'
         },{

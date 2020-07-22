@@ -12,6 +12,9 @@ module.exports = {
       initiateRelation: [{
         title: 'Target Name',
         type: 'string'
+      },{
+        title: 'Reference',
+        type: 'string'
       }],
       blockRelation: [{
         title: 'Target Name',
@@ -19,6 +22,10 @@ module.exports = {
       }],
       getInitiators: true,
       acceptRelation: [{
+        title: 'Initiator name',
+        type: 'string'
+      }],
+      rejectRelation: [{
         title: 'Initiator name',
         type: 'string'
       }],
